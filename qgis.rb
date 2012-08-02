@@ -48,6 +48,7 @@ class Qgis < Formula
   depends_on 'PyQt'
   depends_on 'gdal'
   depends_on 'spatialindex'
+  depends_on 'libspatialite'
 
   depends_on 'grass' if grass?
   depends_on 'gettext' if grass? # For libintl
